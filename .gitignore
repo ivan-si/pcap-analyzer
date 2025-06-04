@@ -1,0 +1,31 @@
+# Ignore everything in the repository by default
+*
+
+!pcap_analyzer.py
+
+!traffic_generator.py
+
+!.gitignore
+
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+
+# Virtual environment folders
+/venv/
+/*.venv/
+/env/
+/.env
+/ENV/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Output files from your scripts 
+# generated_traffic.pcap
+# *.pcap
+# malicious_ips.txt
